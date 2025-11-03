@@ -2,6 +2,7 @@ package lotto;
 
 import lotto.domain.Lotto;
 import lotto.domain.WinningLotto;
+import lotto.service.LottoGame;
 import lotto.view.InputView;
 import lotto.view.OutputView;
 
@@ -16,6 +17,10 @@ public class Application {
 
         List<Lotto> lotto_issued = retryUntilOk(inputView::getLottoIssued);
         WinningLotto lotto_winning = inputView.getWinningAndBonusLotto();
+
+        LottoGame lotto_game = new LottoGame(lotto_issued, lotto_winning);
+
+        outputView.showWinningResult(lotto_game.getResult(), lotto_issued.size());
     }
 
 }
