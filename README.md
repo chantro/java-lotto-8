@@ -51,7 +51,7 @@
 - [x] (O-03) 총 수익률 출력 (공백/문장부호 일치)
 
 ### 테스트
-- [ ] (T-01) `LottoTest`: 개수/범위/중복/정상 생성(+ 불변성)
-- [ ] (T-02) `WinningLottoTest`: 보너스 중복/범위
-- [ ] (T-03) `LottoPrizeTest`: 매핑 케이스
+- [x] (T-01) `LottoTest`: 개수/범위/중복/정상 생성(+ 불변성)
+- [x] (T-02) `WinningLottoTest`: 보너스 중복/범위
+- [x] (T-03) `LottoPrizeTest`: 매핑 케이스
 - [ ] (T-04) `LottoGameTest`: 등수별 카운트, 중복 집계 없음
