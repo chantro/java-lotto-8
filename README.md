@@ -54,4 +54,4 @@
 - [x] (T-01) `LottoTest`: 개수/범위/중복/정상 생성(+ 불변성)
 - [x] (T-02) `WinningLottoTest`: 보너스 중복/범위
 - [x] (T-03) `LottoPrizeTest`: 매핑 케이스
-- [ ] (T-04) `LottoGameTest`: 등수별 카운트, 중복 집계 없음
+- [x] (T-04) `LottoGameTest`: 등수별 카운트, 중복 집계 없음
